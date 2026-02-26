@@ -5,18 +5,11 @@ Loads a saved model (torch.save(model, ...)), runs inference on
 validation or test images, and reports overall accuracy.
 
 Usage:
-    python evaluate_submission.py \
+    python evaluate_submission_student.py \
         --model_path  saved_model.pth \
         --model_file  model.py \
         --data_dir    dataset/dataset \
-        --valid
-
-    python evaluate_submission.py \
-        --model_path  saved_model.pth \
-        --model_file  model.py \
-        --data_dir    dataset/dataset \
-        --test
-"""
+        
 
 import argparse
 import csv
